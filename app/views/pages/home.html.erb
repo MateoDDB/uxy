@@ -1,2 +1,42 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render 'shared/banner' %>
+<div class="brands">
+  <div class="brand">
+    <div class="brand-title text-center">
+      <h2>A few brands we've worked with.</h2>
+    </div>
+    <div class="brand-logo">
+      <div class="brands-logo-item left-logos" id="scroll-border-right">
+        <div class="brand-logo-item left-logo" data-aos="fade-right">
+          <%= image_tag "SFB_logo_B.png", alt: "logo SFB Creative" %>
+        </div>
+        <div class="brand-logo-item left-logo" data-aos="fade-right">
+          <%= image_tag "logo-engie.png", alt: "logo SFB Creative" %>
+        </div>
+        <div class="brand-logo-item left-logo" data-aos="fade-right">
+          <%= image_tag "logo-p&p.png", alt: "logo SFB Creative" %>
+        </div>
+      </div>
+      <div class="brand-logo-item right-logos" id="scroll-border-left">
+        <div class="brand-logo-item right-logo" data-aos="fade-left">
+          <%= image_tag "guys-logo.png", alt: "alttext" %>
+        </div>
+        <div class="brand-logo-item right-logo" data-aos="fade-left">
+          <%= image_tag "logo-ratp.png", alt: "alttext" %>
+        </div>
+        <div class="brand-logo-item right-logo" data-aos="fade-left">
+          <%= image_tag "logo-createch.png", alt: "alttext" %>
+        </div>
+      </div>
+    </div>
+    <div class="realisations">
+      <div class="realisation">
+        <%= image_tag "guys&co.jpg", alt: "site guys & co" %>
+        <div class="text-realisation">
+          <div class="text-realisation-item">
+            <p>We built the website, crafted<br>the design system, and helped<br>create a standout site experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

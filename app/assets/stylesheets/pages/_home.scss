@@ -1,1 +1,75 @@
 // Specific CSS for your home-page
+.brands {
+  background-image: url("https://media.giphy.com/media/c3OZsDoaz7kD6/giphy.gif");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.brand {
+  padding-top: 80px;
+  background: rgba(255, 255, 255, 0.9)
+}
+.brand-title {
+  // background: black;
+  h2 {
+    // color: white;
+    margin: 0;
+  }
+}
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.brand-logo-item {
+  // padding: 0 50px;
+  // text-align: center;
+  img {
+    height: 50px;
+    border-radius: 2px;
+  // margin: auto;
+  }
+}
+
+.left-logo:not(:first-child) {
+  margin-top: 200px;
+}
+
+.right-logo{
+  margin-left: 50px;
+}
+
+.left-logo{
+  margin-right: 50px;
+}
+
+.left-logos, .right-logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.realisations {
+  margin-top: 100px;
+  position: relative;
+}
+.realisation {
+
+  img {
+    width: calc(100% - 80px);
+    margin-left: 80px;
+  }
+}
+
+.text-realisation {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+
+.text-realisation-item {
+  text-align:center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
